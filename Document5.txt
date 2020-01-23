@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class numb
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+long n,hrs,mins,secs;
+System.out.println("Enter number:");
+n=input.nextLong();
+hrs=n/3600;
+n=n%3600
+mins=n%60;
+secs=n/60;
+System.out.println("hrs : "+hrs);
+System.out.println("mins : "+mins);
+System.out.println("secs : "+secs);
+}
+)

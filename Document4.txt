@@ -1,0 +1,20 @@
+class Method
+{
+   String color;
+   int age;
+  void object(String c,int a)
+  {
+    color=c;
+    age=a;
+    }
+    void display()
+    {
+       System.out.println(color+" "+age);
+       }
+      public static void main(String args[])
+      {
+      Animal in=new Animal();
+      in.object("black",10);
+      in.display();
+      }
+      }

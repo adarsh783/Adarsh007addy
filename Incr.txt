@@ -1,0 +1,18 @@
+class Incr
+{
+int item;
+public static void main(String args[])
+{
+Incr obj1=new Incr();
+obj1.item=10;
+obj1.Name;
+System.out.println(obj1.item+"    "+ obj2.item);
+}
+
+void Name
+{
+  Incr obj2=new Incr();
+  obj2.item= obj1.item+10;
+ }
+
+}
